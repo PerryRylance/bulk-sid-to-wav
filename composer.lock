@@ -1,0 +1,186 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "7e12d8a3a331fc351d0c71e930318f28",
+    "packages": [
+        {
+            "name": "dnoegel/sid-info",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dnoegel/sid-info.git",
+                "reference": "3e4128ffe329be3e12083cb40b097b283ebd0369"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dnoegel/sid-info/zipball/3e4128ffe329be3e12083cb40b097b283ebd0369",
+                "reference": "3e4128ffe329be3e12083cb40b097b283ebd0369",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Dnoegel\\SidInfo\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Nögel",
+                    "email": "github@daniel.noegelmail.de"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/dnoegel/sid-info/tree/master",
+                "issues": "https://github.com/dnoegel/sid-info/issues"
+            },
+            "time": "2015-12-20T08:41:35+00:00"
+        },
+        {
+            "name": "phalcon/cli-options-parser",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phalcon/cli-options-parser.git",
+                "reference": "ec4d4cd0b7e61046b88957a4028ad01dfa14f4e6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phalcon/cli-options-parser/zipball/ec4d4cd0b7e61046b88957a4028ad01dfa14f4e6",
+                "reference": "ec4d4cd0b7e61046b88957a4028ad01dfa14f4e6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "require-dev": {
+                "pds/skeleton": "^1.0",
+                "phpstan/phpstan": "^1.10",
+                "phpunit/phpunit": "^9.6",
+                "squizlabs/php_codesniffer": "^3.7"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Phalcon\\Cop\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Phalcon Team",
+                    "email": "team@phalconphp.com",
+                    "homepage": "https://phalconphp.com/en/team"
+                },
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/phalcon/cli-options-parser/graphs/contributors"
+                }
+            ],
+            "description": "Command line arguments/options parser.",
+            "homepage": "https://phalconphp.com",
+            "keywords": [
+                "argparse",
+                "cli",
+                "command",
+                "command-line",
+                "getopt",
+                "line",
+                "option",
+                "optparse",
+                "parser",
+                "terminal"
+            ],
+            "support": {
+                "discord": "https://phalcon.io/discord/",
+                "issues": "https://github.com/phalcon/cli-options-parser/issues",
+                "source": "https://github.com/phalcon/cli-options-parser"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/phalcon",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/phalcon",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2023-11-24T16:04:00+00:00"
+        },
+        {
+            "name": "wujunze/php-cli-color",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wujunze/php-cli-color.git",
+                "reference": "3ce1c3948efdd1d4a60be4b092cf0b1fec122fe1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wujunze/php-cli-color/zipball/3ce1c3948efdd1d4a60be4b092cf0b1fec122fe1",
+                "reference": "3ce1c3948efdd1d4a60be4b092cf0b1fec122fe1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "codedungeon/phpunit-result-printer": "^0.5",
+                "overtrue/phplint": "^0.2",
+                "phpunit/phpunit": "^5.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Wujunze\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "wujunze",
+                    "email": "itwujunze@163.com"
+                }
+            ],
+            "description": "Simple and easy to use the PHP command-line output of color",
+            "support": {
+                "issues": "https://github.com/wujunze/php-cli-color/issues",
+                "source": "https://github.com/wujunze/php-cli-color/tree/master"
+            },
+            "time": "2018-12-12T12:32:42+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "dnoegel/sid-info": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
