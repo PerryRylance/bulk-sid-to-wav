@@ -53,6 +53,12 @@ foreach($files as $filename)
 
 	$seconds = 120;
 
+	if(file_exists($filename . ".flac"))
+	{
+		echo "$progress - Skipping $filename - already rendered" . PHP_EOL;
+		continue;
+	}
+
 	try{
 		$struct = $parser->parseFile($filename);
 		$length = $database->find($struct->getHash());
